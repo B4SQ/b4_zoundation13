@@ -1,0 +1,986 @@
+/***************
+*    MIXINS    *
+****************/
+/*****************
+*   VARIABLES    *
+******************/
+/* From B4 Commmunications */
+/* Rows */
+/* Circles */
+/* Paths */
+/* I'm New */
+/* LifeGroups */
+/* Men */
+/* Women */
+/* Young Adults */
+/* Senior Ministries */
+/* Healing & Wholeness */
+/* All Children */
+/* Nursery */
+/* Early Childhood */
+/* 1st&2nd */
+/* 3rd-5th */
+/* All Youth */
+/* 6th Grade */
+/* Jr. High */
+/* High School */
+/* Camp */
+/* Holidays */
+/* International Ministries */
+/* Local Outreach */
+/* Global Outreach */
+/* New to B4 */
+/* New to Christianity */
+/* Unassigned */
+/****************
+*    IMPORTS    *
+*****************/
+/**************************************
+*   TAXONOMY TERM  BUTTON COLORING    *
+***************************************/
+.page-taxonomy-term-13 h2, .page-taxonomy-term-13 .page-title-background {
+  color: #000;
+  fill: #fcb822; }
+
+.page-taxonomy-term-13 a {
+  color: #777777; }
+
+.page-taxonomy-term-13 a:hover, .page-taxonomy-term-13 a:active {
+  background: none repeat scroll 0 0 #fcb822;
+  color: #000; }
+
+.page-taxonomy-term-13 .button, .page-taxonomy-term-13 li.button {
+  background: #777777;
+  color: #fff; }
+
+.page-taxonomy-term-13 .button, .page-taxonomy-term-13 li.button a {
+  color: #fff; }
+
+.page-taxonomy-term-13 li.button:hover, .page-taxonomy-term-13 li.button a:hover {
+  background: none repeat scroll 0 0 #fcb822;
+  color: #fff; }
+
+.page-taxonomy-term-14 h2, .page-taxonomy-term-14 .page-title-background {
+  color: #000;
+  fill: #22b24c; }
+
+.page-taxonomy-term-14 a {
+  color: #777777; }
+
+.page-taxonomy-term-14 a:hover, .page-taxonomy-term-14 a:active {
+  background: none repeat scroll 0 0 #22b24c;
+  color: #000; }
+
+.page-taxonomy-term-14 .button, .page-taxonomy-term-14 li.button {
+  background: #777777;
+  color: #fff; }
+
+.page-taxonomy-term-14 .button, .page-taxonomy-term-14 li.button a {
+  color: #fff; }
+
+.page-taxonomy-term-14 li.button:hover, .page-taxonomy-term-14 li.button a:hover {
+  background: none repeat scroll 0 0 #22b24c;
+  color: #fff; }
+
+.page-taxonomy-term-15 h2, .page-taxonomy-term-15 .page-title-background {
+  color: #000;
+  fill: #a62e2c; }
+
+.page-taxonomy-term-15 a {
+  color: #777777; }
+
+.page-taxonomy-term-15 a:hover, .page-taxonomy-term-15 a:active {
+  background: none repeat scroll 0 0 #a62e2c;
+  color: #000; }
+
+.page-taxonomy-term-15 .button, .page-taxonomy-term-15 li.button {
+  background: #777777;
+  color: #fff; }
+
+.page-taxonomy-term-15 .button, .page-taxonomy-term-15 li.button a {
+  color: #fff; }
+
+.page-taxonomy-term-15 li.button:hover, .page-taxonomy-term-15 li.button a:hover {
+  background: none repeat scroll 0 0 #a62e2c;
+  color: #fff; }
+
+.page-taxonomy-term-16 h2, .page-taxonomy-term-16 .page-title-background {
+  color: #000;
+  fill: #287588; }
+
+.page-taxonomy-term-16 a {
+  color: #777777; }
+
+.page-taxonomy-term-16 a:hover, .page-taxonomy-term-16 a:active {
+  background: none repeat scroll 0 0 #287588;
+  color: #000; }
+
+.page-taxonomy-term-16 .button, .page-taxonomy-term-16 li.button {
+  background: #777777;
+  color: #fff; }
+
+.page-taxonomy-term-16 .button, .page-taxonomy-term-16 li.button a {
+  color: #fff; }
+
+.page-taxonomy-term-16 li.button:hover, .page-taxonomy-term-16 li.button a:hover {
+  background: none repeat scroll 0 0 #287588;
+  color: #fff; }
+
+.page-taxonomy-term-17 h2, .page-taxonomy-term-17 .page-title-background {
+  color: #000;
+  fill: #24a292; }
+
+.page-taxonomy-term-17 a {
+  color: #777777; }
+
+.page-taxonomy-term-17 a:hover, .page-taxonomy-term-17 a:active {
+  background: none repeat scroll 0 0 #24a292;
+  color: #000; }
+
+.page-taxonomy-term-17 .button, .page-taxonomy-term-17 li.button {
+  background: #777777;
+  color: #fff; }
+
+.page-taxonomy-term-17 .button, .page-taxonomy-term-17 li.button a {
+  color: #fff; }
+
+.page-taxonomy-term-17 li.button:hover, .page-taxonomy-term-17 li.button a:hover {
+  background: none repeat scroll 0 0 #24a292;
+  color: #fff; }
+
+.page-taxonomy-term-18 h2, .page-taxonomy-term-18 .page-title-background {
+  color: #000;
+  fill: #1f83b6; }
+
+.page-taxonomy-term-18 a {
+  color: #777777; }
+
+.page-taxonomy-term-18 a:hover, .page-taxonomy-term-18 a:active {
+  background: none repeat scroll 0 0 #1f83b6;
+  color: #000; }
+
+.page-taxonomy-term-18 .button, .page-taxonomy-term-18 li.button {
+  background: #777777;
+  color: #fff; }
+
+.page-taxonomy-term-18 .button, .page-taxonomy-term-18 li.button a {
+  color: #fff; }
+
+.page-taxonomy-term-18 li.button:hover, .page-taxonomy-term-18 li.button a:hover {
+  background: none repeat scroll 0 0 #1f83b6;
+  color: #fff; }
+
+.page-taxonomy-term-19 h2, .page-taxonomy-term-19 .page-title-background {
+  color: #000;
+  fill: #ed126f; }
+
+.page-taxonomy-term-19 a {
+  color: #777777; }
+
+.page-taxonomy-term-19 a:hover, .page-taxonomy-term-19 a:active {
+  background: none repeat scroll 0 0 #ed126f;
+  color: #000; }
+
+.page-taxonomy-term-19 .button, .page-taxonomy-term-19 li.button {
+  background: #777777;
+  color: #fff; }
+
+.page-taxonomy-term-19 .button, .page-taxonomy-term-19 li.button a {
+  color: #fff; }
+
+.page-taxonomy-term-19 li.button:hover, .page-taxonomy-term-19 li.button a:hover {
+  background: none repeat scroll 0 0 #ed126f;
+  color: #fff; }
+
+.page-taxonomy-term-20 h2, .page-taxonomy-term-20 .page-title-background {
+  color: #000;
+  fill: #6ec9bd; }
+
+.page-taxonomy-term-20 a {
+  color: #777777; }
+
+.page-taxonomy-term-20 a:hover, .page-taxonomy-term-20 a:active {
+  background: none repeat scroll 0 0 #6ec9bd;
+  color: #000; }
+
+.page-taxonomy-term-20 .button, .page-taxonomy-term-20 li.button {
+  background: #777777;
+  color: #fff; }
+
+.page-taxonomy-term-20 .button, .page-taxonomy-term-20 li.button a {
+  color: #fff; }
+
+.page-taxonomy-term-20 li.button:hover, .page-taxonomy-term-20 li.button a:hover {
+  background: none repeat scroll 0 0 #6ec9bd;
+  color: #fff; }
+
+.page-taxonomy-term-21 h2, .page-taxonomy-term-21 .page-title-background {
+  color: #000;
+  fill: #f17a20; }
+
+.page-taxonomy-term-21 a {
+  color: #777777; }
+
+.page-taxonomy-term-21 a:hover, .page-taxonomy-term-21 a:active {
+  background: none repeat scroll 0 0 #f17a20;
+  color: #000; }
+
+.page-taxonomy-term-21 .button, .page-taxonomy-term-21 li.button {
+  background: #777777;
+  color: #fff; }
+
+.page-taxonomy-term-21 .button, .page-taxonomy-term-21 li.button a {
+  color: #fff; }
+
+.page-taxonomy-term-21 li.button:hover, .page-taxonomy-term-21 li.button a:hover {
+  background: none repeat scroll 0 0 #f17a20;
+  color: #fff; }
+
+.page-taxonomy-term-22 h2, .page-taxonomy-term-22 .page-title-background {
+  color: #000;
+  fill: #714099; }
+
+.page-taxonomy-term-22 a {
+  color: #777777; }
+
+.page-taxonomy-term-22 a:hover, .page-taxonomy-term-22 a:active {
+  background: none repeat scroll 0 0 #714099;
+  color: #000; }
+
+.page-taxonomy-term-22 .button, .page-taxonomy-term-22 li.button {
+  background: #777777;
+  color: #fff; }
+
+.page-taxonomy-term-22 .button, .page-taxonomy-term-22 li.button a {
+  color: #fff; }
+
+.page-taxonomy-term-22 li.button:hover, .page-taxonomy-term-22 li.button a:hover {
+  background: none repeat scroll 0 0 #714099;
+  color: #fff; }
+
+.page-taxonomy-term-23 h2, .page-taxonomy-term-23 .page-title-background {
+  color: #000;
+  fill: #f15a44; }
+
+.page-taxonomy-term-23 a {
+  color: #777777; }
+
+.page-taxonomy-term-23 a:hover, .page-taxonomy-term-23 a:active {
+  background: none repeat scroll 0 0 #f15a44;
+  color: #000; }
+
+.page-taxonomy-term-23 .button, .page-taxonomy-term-23 li.button {
+  background: #777777;
+  color: #fff; }
+
+.page-taxonomy-term-23 .button, .page-taxonomy-term-23 li.button a {
+  color: #fff; }
+
+.page-taxonomy-term-23 li.button:hover, .page-taxonomy-term-23 li.button a:hover {
+  background: none repeat scroll 0 0 #f15a44;
+  color: #fff; }
+
+.page-taxonomy-term-24 h2, .page-taxonomy-term-24 .page-title-background {
+  color: #000;
+  fill: #f15a44; }
+
+.page-taxonomy-term-24 a {
+  color: #777777; }
+
+.page-taxonomy-term-24 a:hover, .page-taxonomy-term-24 a:active {
+  background: none repeat scroll 0 0 #f15a44;
+  color: #000; }
+
+.page-taxonomy-term-24 .button, .page-taxonomy-term-24 li.button {
+  background: #777777;
+  color: #fff; }
+
+.page-taxonomy-term-24 .button, .page-taxonomy-term-24 li.button a {
+  color: #fff; }
+
+.page-taxonomy-term-24 li.button:hover, .page-taxonomy-term-24 li.button a:hover {
+  background: none repeat scroll 0 0 #f15a44;
+  color: #fff; }
+
+.page-taxonomy-term-25 h2, .page-taxonomy-term-25 .page-title-background {
+  color: #000;
+  fill: #f15a44; }
+
+.page-taxonomy-term-25 a {
+  color: #777777; }
+
+.page-taxonomy-term-25 a:hover, .page-taxonomy-term-25 a:active {
+  background: none repeat scroll 0 0 #f15a44;
+  color: #000; }
+
+.page-taxonomy-term-25 .button, .page-taxonomy-term-25 li.button {
+  background: #777777;
+  color: #fff; }
+
+.page-taxonomy-term-25 .button, .page-taxonomy-term-25 li.button a {
+  color: #fff; }
+
+.page-taxonomy-term-25 li.button:hover, .page-taxonomy-term-25 li.button a:hover {
+  background: none repeat scroll 0 0 #f15a44;
+  color: #fff; }
+
+.page-taxonomy-term-26 h2, .page-taxonomy-term-26 .page-title-background {
+  color: #000;
+  fill: #f15a44; }
+
+.page-taxonomy-term-26 a {
+  color: #777777; }
+
+.page-taxonomy-term-26 a:hover, .page-taxonomy-term-26 a:active {
+  background: none repeat scroll 0 0 #f15a44;
+  color: #000; }
+
+.page-taxonomy-term-26 .button, .page-taxonomy-term-26 li.button {
+  background: #777777;
+  color: #fff; }
+
+.page-taxonomy-term-26 .button, .page-taxonomy-term-26 li.button a {
+  color: #fff; }
+
+.page-taxonomy-term-26 li.button:hover, .page-taxonomy-term-26 li.button a:hover {
+  background: none repeat scroll 0 0 #f15a44;
+  color: #fff; }
+
+.page-taxonomy-term-27 h2, .page-taxonomy-term-27 .page-title-background {
+  color: #000;
+  fill: #f15a44; }
+
+.page-taxonomy-term-27 a {
+  color: #777777; }
+
+.page-taxonomy-term-27 a:hover, .page-taxonomy-term-27 a:active {
+  background: none repeat scroll 0 0 #f15a44;
+  color: #000; }
+
+.page-taxonomy-term-27 .button, .page-taxonomy-term-27 li.button {
+  background: #777777;
+  color: #fff; }
+
+.page-taxonomy-term-27 .button, .page-taxonomy-term-27 li.button a {
+  color: #fff; }
+
+.page-taxonomy-term-27 li.button:hover, .page-taxonomy-term-27 li.button a:hover {
+  background: none repeat scroll 0 0 #f15a44;
+  color: #fff; }
+
+.page-taxonomy-term-28 h2, .page-taxonomy-term-28 .page-title-background {
+  color: #000;
+  fill: #66bf75; }
+
+.page-taxonomy-term-28 a {
+  color: #777777; }
+
+.page-taxonomy-term-28 a:hover, .page-taxonomy-term-28 a:active {
+  background: none repeat scroll 0 0 #66bf75;
+  color: #000; }
+
+.page-taxonomy-term-28 .button, .page-taxonomy-term-28 li.button {
+  background: #777777;
+  color: #fff; }
+
+.page-taxonomy-term-28 .button, .page-taxonomy-term-28 li.button a {
+  color: #fff; }
+
+.page-taxonomy-term-28 li.button:hover, .page-taxonomy-term-28 li.button a:hover {
+  background: none repeat scroll 0 0 #66bf75;
+  color: #fff; }
+
+.page-taxonomy-term-29 h2, .page-taxonomy-term-29 .page-title-background {
+  color: #000;
+  fill: #66bf75; }
+
+.page-taxonomy-term-29 a {
+  color: #777777; }
+
+.page-taxonomy-term-29 a:hover, .page-taxonomy-term-29 a:active {
+  background: none repeat scroll 0 0 #66bf75;
+  color: #000; }
+
+.page-taxonomy-term-29 .button, .page-taxonomy-term-29 li.button {
+  background: #777777;
+  color: #fff; }
+
+.page-taxonomy-term-29 .button, .page-taxonomy-term-29 li.button a {
+  color: #fff; }
+
+.page-taxonomy-term-29 li.button:hover, .page-taxonomy-term-29 li.button a:hover {
+  background: none repeat scroll 0 0 #66bf75;
+  color: #fff; }
+
+.page-taxonomy-term-30 h2, .page-taxonomy-term-30 .page-title-background {
+  color: #000;
+  fill: #66bf75; }
+
+.page-taxonomy-term-30 a {
+  color: #777777; }
+
+.page-taxonomy-term-30 a:hover, .page-taxonomy-term-30 a:active {
+  background: none repeat scroll 0 0 #66bf75;
+  color: #000; }
+
+.page-taxonomy-term-30 .button, .page-taxonomy-term-30 li.button {
+  background: #777777;
+  color: #fff; }
+
+.page-taxonomy-term-30 .button, .page-taxonomy-term-30 li.button a {
+  color: #fff; }
+
+.page-taxonomy-term-30 li.button:hover, .page-taxonomy-term-30 li.button a:hover {
+  background: none repeat scroll 0 0 #66bf75;
+  color: #fff; }
+
+.page-taxonomy-term-31 h2, .page-taxonomy-term-31 .page-title-background {
+  color: #000;
+  fill: #66bf75; }
+
+.page-taxonomy-term-31 a {
+  color: #777777; }
+
+.page-taxonomy-term-31 a:hover, .page-taxonomy-term-31 a:active {
+  background: none repeat scroll 0 0 #66bf75;
+  color: #000; }
+
+.page-taxonomy-term-31 .button, .page-taxonomy-term-31 li.button {
+  background: #777777;
+  color: #fff; }
+
+.page-taxonomy-term-31 .button, .page-taxonomy-term-31 li.button a {
+  color: #fff; }
+
+.page-taxonomy-term-31 li.button:hover, .page-taxonomy-term-31 li.button a:hover {
+  background: none repeat scroll 0 0 #66bf75;
+  color: #fff; }
+
+.page-taxonomy-term-32 h2, .page-taxonomy-term-32 .page-title-background {
+  color: #000;
+  fill: #040707; }
+
+.page-taxonomy-term-32 a {
+  color: #777777; }
+
+.page-taxonomy-term-32 a:hover, .page-taxonomy-term-32 a:active {
+  background: none repeat scroll 0 0 #040707;
+  color: #000; }
+
+.page-taxonomy-term-32 .button, .page-taxonomy-term-32 li.button {
+  background: #777777;
+  color: #fff; }
+
+.page-taxonomy-term-32 .button, .page-taxonomy-term-32 li.button a {
+  color: #fff; }
+
+.page-taxonomy-term-32 li.button:hover, .page-taxonomy-term-32 li.button a:hover {
+  background: none repeat scroll 0 0 #040707;
+  color: #fff; }
+
+.page-taxonomy-term-33 h2, .page-taxonomy-term-33 .page-title-background {
+  color: #000;
+  fill: #fff200; }
+
+.page-taxonomy-term-33 a {
+  color: #777777; }
+
+.page-taxonomy-term-33 a:hover, .page-taxonomy-term-33 a:active {
+  background: none repeat scroll 0 0 #fff200;
+  color: #000; }
+
+.page-taxonomy-term-33 .button, .page-taxonomy-term-33 li.button {
+  background: #777777;
+  color: #fff; }
+
+.page-taxonomy-term-33 .button, .page-taxonomy-term-33 li.button a {
+  color: #fff; }
+
+.page-taxonomy-term-33 li.button:hover, .page-taxonomy-term-33 li.button a:hover {
+  background: none repeat scroll 0 0 #fff200;
+  color: #fff; }
+
+.page-taxonomy-term-34 h2, .page-taxonomy-term-34 .page-title-background {
+  color: #000;
+  fill: #a62e2c; }
+
+.page-taxonomy-term-34 a {
+  color: #777777; }
+
+.page-taxonomy-term-34 a:hover, .page-taxonomy-term-34 a:active {
+  background: none repeat scroll 0 0 #a62e2c;
+  color: #000; }
+
+.page-taxonomy-term-34 .button, .page-taxonomy-term-34 li.button {
+  background: #777777;
+  color: #fff; }
+
+.page-taxonomy-term-34 .button, .page-taxonomy-term-34 li.button a {
+  color: #fff; }
+
+.page-taxonomy-term-34 li.button:hover, .page-taxonomy-term-34 li.button a:hover {
+  background: none repeat scroll 0 0 #a62e2c;
+  color: #fff; }
+
+.page-taxonomy-term-35 h2, .page-taxonomy-term-35 .page-title-background {
+  color: #000;
+  fill: #a62e2c; }
+
+.page-taxonomy-term-35 a {
+  color: #777777; }
+
+.page-taxonomy-term-35 a:hover, .page-taxonomy-term-35 a:active {
+  background: none repeat scroll 0 0 #a62e2c;
+  color: #000; }
+
+.page-taxonomy-term-35 .button, .page-taxonomy-term-35 li.button {
+  background: #777777;
+  color: #fff; }
+
+.page-taxonomy-term-35 .button, .page-taxonomy-term-35 li.button a {
+  color: #fff; }
+
+.page-taxonomy-term-35 li.button:hover, .page-taxonomy-term-35 li.button a:hover {
+  background: none repeat scroll 0 0 #a62e2c;
+  color: #fff; }
+
+.page-taxonomy-term-36 h2, .page-taxonomy-term-36 .page-title-background {
+  color: #000;
+  fill: #a62e2c; }
+
+.page-taxonomy-term-36 a {
+  color: #777777; }
+
+.page-taxonomy-term-36 a:hover, .page-taxonomy-term-36 a:active {
+  background: none repeat scroll 0 0 #a62e2c;
+  color: #000; }
+
+.page-taxonomy-term-36 .button, .page-taxonomy-term-36 li.button {
+  background: #777777;
+  color: #fff; }
+
+.page-taxonomy-term-36 .button, .page-taxonomy-term-36 li.button a {
+  color: #fff; }
+
+.page-taxonomy-term-36 li.button:hover, .page-taxonomy-term-36 li.button a:hover {
+  background: none repeat scroll 0 0 #a62e2c;
+  color: #fff; }
+
+.page-taxonomy-term-37 h2, .page-taxonomy-term-37 .page-title-background {
+  color: #000;
+  fill: #287588; }
+
+.page-taxonomy-term-37 a {
+  color: #777777; }
+
+.page-taxonomy-term-37 a:hover, .page-taxonomy-term-37 a:active {
+  background: none repeat scroll 0 0 #287588;
+  color: #000; }
+
+.page-taxonomy-term-37 .button, .page-taxonomy-term-37 li.button {
+  background: #777777;
+  color: #fff; }
+
+.page-taxonomy-term-37 .button, .page-taxonomy-term-37 li.button a {
+  color: #fff; }
+
+.page-taxonomy-term-37 li.button:hover, .page-taxonomy-term-37 li.button a:hover {
+  background: none repeat scroll 0 0 #287588;
+  color: #fff; }
+
+.page-taxonomy-term-38 h2, .page-taxonomy-term-38 .page-title-background {
+  color: #000;
+  fill: #287588; }
+
+.page-taxonomy-term-38 a {
+  color: #777777; }
+
+.page-taxonomy-term-38 a:hover, .page-taxonomy-term-38 a:active {
+  background: none repeat scroll 0 0 #287588;
+  color: #000; }
+
+.page-taxonomy-term-38 .button, .page-taxonomy-term-38 li.button {
+  background: #777777;
+  color: #fff; }
+
+.page-taxonomy-term-38 .button, .page-taxonomy-term-38 li.button a {
+  color: #fff; }
+
+.page-taxonomy-term-38 li.button:hover, .page-taxonomy-term-38 li.button a:hover {
+  background: none repeat scroll 0 0 #287588;
+  color: #fff; }
+
+.page-taxonomy-term-39 h2, .page-taxonomy-term-39 .page-title-background {
+  color: #000;
+  fill: magenta; }
+
+.page-taxonomy-term-39 a {
+  color: #777777; }
+
+.page-taxonomy-term-39 a:hover, .page-taxonomy-term-39 a:active {
+  background: none repeat scroll 0 0 magenta;
+  color: #000; }
+
+.page-taxonomy-term-39 .button, .page-taxonomy-term-39 li.button {
+  background: #777777;
+  color: #fff; }
+
+.page-taxonomy-term-39 .button, .page-taxonomy-term-39 li.button a {
+  color: #fff; }
+
+.page-taxonomy-term-39 li.button:hover, .page-taxonomy-term-39 li.button a:hover {
+  background: none repeat scroll 0 0 magenta;
+  color: #fff; }
+
+h1#page-title {
+  color: #fff; }
+
+/***************************
+*   ALL SCREEN DISPLAYS    *
+****************************/
+body {
+  /*	color: #f00; */
+  background-color: #FFF; }
+
+h1, h2, h3, h4, h5, h6, .proper-name {
+  text-transform: capitalize; }
+
+h1 {
+  font-size: 2.125em; }
+
+h2 {
+  font-size: 1.6875em; }
+
+h3 {
+  font-size: 1.375em; }
+
+h4 {
+  font-size: 1.125em; }
+
+h5 {
+  font-size: 1.125em; }
+
+h6 {
+  font-size: 1em; }
+
+h2.pane-title, h2.atmosphere-id {
+  display: none;
+  visibility: hidden; }
+
+div.radius img {
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px; }
+
+#content-wrapper {
+  -moz-box-shadow: 6px 0px 10px -7px #333333, -6px 0px 10px -7px #333333;
+  -webkit-box-shadow: 6px 0px 10px -7px #333333, -6px 0px 10px -7px #333333;
+  box-shadow: 6px 0px 10px -7px #333333, -6px 0px 10px -7px #333333;
+  position: relative; }
+
+.button {
+  border: 1px solid #000;
+  margin: 0 3px; }
+
+#main {
+  margin-bottom: 1em; }
+
+#sticky-links {
+  background-color: #000;
+  color: #FFF;
+  height: 35px;
+  overflow: hidden; }
+
+#sticky-links div.block div.view div.view-content ul.no-bullet li.views-row div.views-field div.field-content a img {
+  display: inline-block;
+  max-height: 30px;
+  padding-left: 8px;
+  vertical-align: middle; }
+
+#sticky-links div.block div.view div.view-content ul.no-bullet li.views-row-first {
+  padding: 0 0 0 10px; }
+
+#sticky-links div.block div.view div.view-content ul.no-bullet li.views-row {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle; }
+
+#sticky-links div.block div.view div.view-content ul.no-bullet li.views-row-last {
+  padding: 0 10px 0 0; }
+
+#atmosphere {
+  float: left;
+  position: relative;
+  top: 0;
+  z-index: -10; }
+
+.page-taxonomy-term-13 div#atmosphere-logo {
+  background: url(../images/atmosphere-rows.png); }
+
+.page-taxonomy-term-14 div#atmosphere-logo {
+  background: url(../images/atmosphere-circles.png); }
+
+.page-taxonomy-term-15 div#atmosphere-logo {
+  background: url(../images/atmosphere-paths.png); }
+
+.page-taxonomy-term-16 div#atmosphere-logo {
+  background: url(../images/atmosphere-iamnew.png); }
+
+.page-taxonomy-term-17 div#atmosphere-logo {
+  background: url(../images/atmosphere-lifegroups.png); }
+
+.page-taxonomy-term-18 div#atmosphere-logo {
+  background: url(../images/atmosphere-men.png); }
+
+.page-taxonomy-term-19 div#atmosphere-logo {
+  background: url(../images/atmosphere-women.png); }
+
+.page-taxonomy-term-20 div#atmosphere-logo {
+  background: url(../images/atmosphere-youngadults.png); }
+
+.page-taxonomy-term-21 div#atmosphere-logo {
+  background: url(../images/atmosphere-senior.png); }
+
+.page-taxonomy-term-22 div#atmosphere-logo {
+  background: url(../images/atmosphere-healing.png); }
+
+.page-taxonomy-term-23 div#atmosphere-logo {
+  background: url(../images/atmosphere-allchildren.png); }
+
+.page-taxonomy-term-24 div#atmosphere-logo {
+  background: url(../images/atmosphere-nursery.png); }
+
+.page-taxonomy-term-25 div#atmosphere-logo {
+  background: url(../images/atmosphere-earlychildhood.png); }
+
+.page-taxonomy-term-26 div#atmosphere-logo {
+  background: url(../images/atmosphere-firstsecond.png); }
+
+.page-taxonomy-term-27 div#atmosphere-logo {
+  background: url(../images/atmosphere-thirdfifth.png); }
+
+.page-taxonomy-term-28 div#atmosphere-logo {
+  background: url(../images/atmosphere-allyouth.png); }
+
+.page-taxonomy-term-29 div#atmosphere-logo {
+  background: url(../images/atmosphere-sixth.png); }
+
+.page-taxonomy-term-30 div#atmosphere-logo {
+  background: url(../images/atmosphere-jrhigh.png); }
+
+.page-taxonomy-term-31 div#atmosphere-logo {
+  background: url(../images/atmosphere-highschool.png); }
+
+.page-taxonomy-term-32 div#atmosphere-logo {
+  background: url(../images/atmosphere-camp.png); }
+
+.page-taxonomy-term-33 div#atmosphere-logo {
+  background: url(../images/atmosphere-holidays.png); }
+
+.page-taxonomy-term-34 div#atmosphere-logo {
+  background: url(../images/atmosphere-international.png); }
+
+.page-taxonomy-term-35 div#atmosphere-logo {
+  background: url(../images/atmosphere-localoutreach.png); }
+
+.page-taxonomy-term-36 div#atmosphere-logo {
+  background: url(../images/atmosphere-globaloutreach.png); }
+
+.page-taxonomy-term-37 div#atmosphere-logo {
+  background: url(../images/atmosphere-newb4.png); }
+
+.page-taxonomy-term-38 div#atmosphere-logo {
+  background: url(../images/atmosphere-newchristian.png); }
+
+.page-taxonomy-term-39 div#atmosphere-logo {
+  background: url(../images/atmosphere-generic.png); }
+
+.page-calendar div#atmosphere-logo, body.node-type-event div#atmosphere-logo {
+  background: url(../images/atmosphere-event.png); }
+
+body.node-type-blog div#atmosphere-logo {
+  background: url(../images/atmosphere-blog.png); }
+
+body.node-type-bulletin-article div#atmosphere-logo {
+  background: url(../images/atmosphere-bulletin.png); }
+
+body.node-type-picture-n-paragraph div#atmosphere-logo {
+  background: url(../images/atmosphere-pnp.png); }
+
+body.node-type-photo-gallery div#atmosphere-logo {
+  background: url(../images/atmosphere-photogallery.png); }
+
+#branding.hide-for-small {
+  margin-top: 1em; }
+
+#page-deco {
+  margin-left: 0px;
+  position: relative; }
+
+#page-deco svg {
+  display: inline-block;
+  padding-left: 0px;
+  position: relative;
+  top: -140px;
+  z-index: 0; }
+
+.page-title-background {
+  display: inline-block;
+  max-height: 300px;
+  max-width: 300px; }
+
+.foreign-object-page-title {
+  /* just the page title */
+  display: inline-block;
+  max-height: 300px;
+  max-width: 300px; }
+
+h1#page-title {
+  font-size: 2.5em;
+  text-align: center;
+  margin-top: 40%;
+  margin-bottom: 40%;
+  z-index: 10; }
+
+h2.events-id {
+  background: url(../images/icons/icon_event.svg) no-repeat top left;
+  background-size: 1em;
+  padding-left: 1.25em; }
+
+h2.blogs-id {
+  background: url(../images/icons/icon_blog.svg) no-repeat top left;
+  background-size: 1em;
+  padding-left: 1.25em; }
+
+h2.bulletins-id {
+  background: url(../images/icons/icon_bulletin.svg) no-repeat top left;
+  background-size: 1em;
+  padding-left: 1.25em; }
+
+h2.pnp-id {
+  background: url(../images/icons/icon_photo.svg) no-repeat top left;
+  background-size: 1em;
+  padding-left: 1.25em; }
+
+h2.podcast-id {
+  background: url(../images/icons/icon_pod.svg) no-repeat top left;
+  background-size: 1em;
+  padding-left: 1.25em; }
+
+h2.links-id {
+  background: url(../images/icons/icon_links.svg) no-repeat top left;
+  background-size: 1em;
+  padding-left: 1.25em; }
+
+h2.docs-id {
+  background: url(../images/icons/icon_docs.svg) no-repeat top left;
+  background-size: 1em;
+  padding-left: 1.25em; }
+
+.hidden-title h2.node-title, .hidden-title .node-readmore {
+  display: none;
+  visibility: hidden; }
+
+div#content-wrapper.row div.row div#main.large-12 div.panel-flexible.canvas-panel-wrapper {
+  position: relative;
+  top: -390px; }
+
+img.field-orbit-image {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  /* future proofing */
+  -khtml-border-radius: 10px;
+  /* for old Konqueror browsers */ }
+
+.views-field-field-category, .views-field-field-ministry-tags {
+  display: inline;
+  margin: -5px 0 20px 0; }
+
+.tax-tag-cat a, .tax-tag-min a {
+  display: inline;
+  margin: 0 5px 0 0; }
+
+footer.large-12 {
+  background-color: #000;
+  color: #FFF;
+  -moz-box-shadow: 6px 0px 10px -7px #333333, -6px 0px 10px -7px #333333;
+  -webkit-box-shadow: 6px 0px 10px -7px #333333, -6px 0px 10px -7px #333333;
+  box-shadow: 6px 0px 10px -7px #333333, -6px 0px 10px -7px #333333; }
+
+footer.large-12 h2 {
+  display: none;
+  visibility: hidden; }
+
+footer p {
+  font-size: .8em;
+  padding-top: 1em;
+  text-align: center; }
+
+/*********************
+*   Small display    *
+**********************/
+@media only screen and (max-width: 767px) {
+  body {
+    margin: 0;
+    background: #FFF; }
+
+  img.field-orbit-image {
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    /* future proofing */
+    -khtml-border-radius: 0px;
+    /* for old Konqueror browsers */ }
+
+  #sticky-links {
+    height: 45px; }
+
+  #content-wrapper {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    position: relative; }
+
+  #small-four-things h2.block-title {
+    display: none;
+    visibility: hidden; }
+
+  #small-four-things ul li.button, button#edit-submit.postfix {
+    background: #535353;
+    margin-bottom: 3px; }
+
+  #small-four-things ul li.button a {
+    color: #FFF; }
+
+  #small-four-things ul li.button:hover, #small-four-things ul li.button:focus, button#edit-submit.postfix {
+    background: #000; } }
+/* e.g. mobile phone */
+/**********************
+*   Medium display    *
+**********************/
+@media only screen and (max-width: 1279px) and (min-width: 768px) {
+  body {
+    background: #FFF; }
+
+  #four-things-dt {
+    margin-left: 0px;
+    position: relative; } }
+/* e.g. iPad landscape */
+/**************************
+*   Very Large display    *
+**************************/
+@media only screen and (min-width: 1280px) {
+  body {
+    background-color: #FFF; }
+
+  #four-things-dt {
+    margin-left: 0px;
+    position: relative; }
+
+  #four-things-dt svg {
+    padding-left: 0px; } }
+/* desktop */
