@@ -70,93 +70,74 @@
  * @see html.tpl.php
  */
 ?>
-<div id="content-wrapper" class="row"><?php // Content warapper defines the edges of the entire content space with a drop shadow or similar effect. ?>
-<div id="container">
-  <?php
+
+<div id="content-wrapper" class="row">
+  <?php // Content warapper defines the edges of the entire content space with a drop shadow or similar effect. ?>
+  <div id="container">
+    <?php
     // Render the topbar regions
     $topbar_left  = render($page['topbar_left']);
     $topbar_right = render($page['topbar_right']);
   ?>
-  <?php if (!empty($topbar_left) || !empty($topbar_right)): ?>
-      <nav class="top-bar fixed">
-        <ul class="title-area">
-            <!-- Title Area -->
-          <?php if ($site_name): ?>
-            <li class="name">
-              <h1><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo"> <?php print $site_name; ?></a>
-              </h1>
-            </li>
-          <?php endif; ?>
-          <!--  Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
-          <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-        </ul>
-
-        <section class="top-bar-section">
-
-          <?php if ($topbar_left): ?>
-            <?php print $topbar_left; ?>
-          <?php endif; ?>
-
-          <?php if ($topbar_right): ?>
-            <?php print $topbar_right; ?>
-          <?php endif; ?>
-
-        </section>
-
-      </nav>
-  <?php endif; ?>
-
-  <header id="header" class="row" role="banner">
-
-    <?php if ($logo): ?>
-    <div class="large-2 columns">
-      <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /></a>
-    </div>
+    <?php if (!empty($topbar_left) || !empty($topbar_right)): ?>
+    <nav class="top-bar fixed">
+      <ul class="title-area">
+        <!-- Title Area -->
+        <?php if ($site_name): ?>
+        <li class="name">
+          <h1><a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo"> <?php print $site_name; ?></a> </h1>
+        </li>
+        <?php endif; ?>
+        <!--  Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+        <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+      </ul>
+      <section class="top-bar-section">
+        <?php if ($topbar_left): ?>
+        <?php print $topbar_left; ?>
+        <?php endif; ?>
+        <?php if ($topbar_right): ?>
+        <?php print $topbar_right; ?>
+        <?php endif; ?>
+      </section>
+    </nav>
     <?php endif; ?>
-
-    <?php if ($site_name || $site_slogan): ?>
+    <header id="header" class="row" role="banner">
+      <?php if ($logo): ?>
+      <div class="large-2 columns"> <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /></a> </div>
+      <?php endif; ?>
+      <?php if ($site_name || $site_slogan): ?>
       <hgroup class="large-10 columns" id="name-and-slogan">
         <?php if ($site_name): ?>
-          <h1 id="site-name">
-            <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a>
-          </h1>
+        <h1 id="site-name"> <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home"><span><?php print $site_name; ?></span></a> </h1>
         <?php endif; ?>
-
         <?php if ($site_slogan): ?>
-          <h2 id="site-slogan"><?php print $site_slogan; ?></h2>
+        <h2 id="site-slogan"><?php print $site_slogan; ?></h2>
         <?php endif; ?>
-      </hgroup><!-- /#name-and-slogan -->
-    <?php endif; ?>
-
-    <div class="large-12 columns">
+      </hgroup>
+      <!-- /#name-and-slogan -->
+      <?php endif; ?>
+      <div class="large-12 columns">
         <div id="sticky-links"><?php print render($page['header']); ?></div>
-    </div>
-
-  </header>
-
-  <?php $navigation = render($page['navigation']); ?>
-
-  <?php if ($navigation):
+      </div>
+    </header>
+    <?php $navigation = render($page['navigation']); ?>
+    <?php if ($navigation):
     // This menu renders if you place the Main menu (navbar) Block into the Navigation Region. This block is created by
     // the Zoundation Support Module.
     // This menu will allow you to add specific Menu Blocks and provides Zurb Foundation dropdown menus.
   ?>
-  <div id="black-navigation" class="row">
-    <nav id="button-bar" class="large-12 columns" role="navigation">
-      <?php print $navigation; ?>
-    </nav>
-  </div><!-- /#navigation -->
-  <?php endif; ?>
-
-
-
-  <?php if ($main_menu):
+    <div id="black-navigation" class="row">
+      <nav id="button-bar" class="large-12 columns" role="navigation"> <?php print $navigation; ?> </nav>
+    </div>
+    <!-- /#navigation -->
+    <?php endif; ?>
+    <?php if ($main_menu):
   // This menu will show up if you have selected  "Main menu" on your sub-theme's settings form.
   // This is the default Main Menu.
   ?>
-  <div id="navigation" class="row">
-    <nav id="main-menu" class="large-12 columns button-bar"  role="navigation">
-      <?php
+    <div id="navigation" class="row">
+      <nav id="main-menu" class="large-12 columns button-bar"  role="navigation">
+        <?php
       print theme('links__system_main_menu', array(
         'links' => $main_menu,
         'attributes' => array(
@@ -168,134 +149,95 @@
           'class' => array('element-invisible'),
         ),
       )); ?>
-    </nav>
-  </div><!-- /#navigation -->
-  <?php endif; ?>
-
-  <?php //Insert logo over atmospheric images ?>
-  <div class="row">
-    <div id="atmosphere-wrppaer" class="large-12 columns">
-      <div id="atmosphere-logo"><?php print '<img src="'.base_path() . path_to_theme() .'/images/atmosphere-logo.png" width="100%">';  ?></div>
+      </nav>
     </div>
-    <?php // Insert page identity and "the tear" ?>
-    <div class="large-12 columns">
-      <div id="page-deco" class="hide-for-small">
-        <object>
-          <?php include(path_to_theme()."/images/page-deco-r1.svg");  ?>
-        </object>
+    <!-- /#navigation -->
+    <?php endif; ?>
+    <?php //Insert logo over atmospheric images ?>
+    <div class="row">
+      <div id="atmosphere-wrppaer" class="large-12 columns">
+        <div id="atmosphere-logo"><?php print '<img src="'.base_path() . path_to_theme() .'/images/atmosphere-logo.png" width="100%">';  ?></div>
       </div>
-      <div id="page-id-mobile" class="show-for-small">
-        <object>
-          <?php include(path_to_theme()."/images/mobile/m_page-identity.svg");  ?>
-        </object>
+      <?php // Insert page identity and "the tear" ?>
+      <div class="large-12 columns">
+        <div id="page-deco" class="hide-for-small">
+          <object>
+            <?php include(path_to_theme()."/images/page-deco-r1.svg");  ?>
+          </object>
+        </div>
+        <div id="page-id-mobile" class="show-for-small">
+          <object>
+            <?php include(path_to_theme()."/images/mobile/m_page-identity.svg");  ?>
+          </object>
+        </div>
       </div>
     </div>
-  </div>
-
-
-
-  <div id="content" class="row" role="main">
-
-    <div class="<?php print $main_classes; ?>">
-        <?php print render($page['highlighted']); ?>
+    <div id="content" class="row" role="main">
+      <div class="<?php print $main_classes; ?>"> <?php print render($page['highlighted']); ?>
         <?php // print $breadcrumb; ?>
-        <a id="main-content"></a>
-        <?php print render($title_prefix); ?>
-        <?php if ($title): ?>
-          <h1 class="title" id="page-title"><?php print $title; ?></h1>
-        <?php endif; ?>
-        <?php print render($title_suffix); ?>
-        <?php print $messages; ?>
-        <?php print render($tabs); ?>
-        <?php print render($page['help']); ?>
+        <a id="main-content"></a> <?php print $messages; ?> <?php print render($tabs); ?> <?php print render($page['help']); ?>
         <?php if ($action_links): ?>
-          <ul class="action-links"><?php print render($action_links); ?></ul>
+        <ul class="action-links">
+          <?php print render($action_links); ?>
+        </ul>
         <?php endif; ?>
-        <?php print render($page['content']); ?>
-        <?php print $feed_icons; ?>
-    </div>
-
-
-    <?php
+        <?php print render($page['content']); ?> <?php print $feed_icons; ?> </div>
+      <?php
       // Render the sidebars to see if there's anything in them.
       $sidebar_first  = render($page['sidebar_first']);
       $sidebar_second = render($page['sidebar_second']);
     ?>
-
-    <?php if ($sidebar_first): ?>
-      <aside class="<?php print $sidebar_first_classes; ?> sidebar">
-        <?php print $sidebar_first; ?>
-      </aside><!-- /.sidebars -->
-    <?php endif; ?>
-
-    <?php if ($sidebar_second): ?>
-      <aside class="<?php print $sidebar_second_classes; ?> sidebar">
-        <?php print $sidebar_second; ?>
-      </aside><!-- /.sidebars -->
-    <?php endif; ?>
-
-  </div><!-- /#content -->
-
-  <div class="row" id="triptych">
-    <?php
-      // Render the tryptich regions to see if there's anything in them.
-      $triptych_first  = render($page['triptych_first']); ?>
-      
-
-<div class="section-container accordion" data-section>
-  
-  <section>
-    <p class="title" data-section-title><a href="#panel1">Section 1</a></p>
-    <div class="content" data-section-content>
-      <p>Content of section 1.</p>
+      <?php if ($sidebar_first): ?>
+      <aside class="<?php print $sidebar_first_classes; ?> sidebar"> <?php print $sidebar_first; ?> </aside>
+      <!-- /.sidebars -->
+      <?php endif; ?>
+      <?php if ($sidebar_second): ?>
+      <aside class="<?php print $sidebar_second_classes; ?> sidebar"> <?php print $sidebar_second; ?> </aside>
+      <!-- /.sidebars -->
+      <?php endif; ?>
     </div>
-  </section>
-
-  <section>
-    <p class="title" data-section-title><a href="#panel2">Ministry Menu</a></p>
-    <div class="content" data-section-content>
-       <?php $triptych_middle  = render($page['triptych_middle']); ?>
-</div>
-  </section>
-</div>
-
-      
-
-
- <?php  $triptych_last  = render($page['triptych_last']);
+    <!-- /#content -->
+    
+    <div class="row" id="triptych">
+      <div class="large-12 columns">
+        <?php
+      // Render the tryptich regions to see if there's anything in them.
+      $triptych_first  = render($page['triptych_first']);
+      $triptych_middle  = render($page['triptych_middle']);
+      $triptych_last  = render($page['triptych_last']);
     ?>
-
-    <?php if ($triptych_first ): ?>
-      <div class="<?php print $triptych_first_classes; ?>" id="triptych-first">
-        <?php print $triptych_first; ?>
+        <?php if ($triptych_first ): ?>
+        <div class="<?php print $triptych_first_classes; ?>" id="triptych-first"> <?php print $triptych_first; ?> </div>
+        <?php endif; ?>
+        <?php if ($triptych_middle ): ?>
+        <div class="section-container accordion" data-section="accordion">
+          <section class="section">
+            <p class="title">Ministry Menu</p>
+            <div class="<?php print $triptych_middle_classes; ?>" id="triptych-middle"> <?php print $triptych_middle; ?> </div>
+          </section>
+          <section class="section active">
+            <p class="title">&nbsp;</p>
+            <div class="content">&nbsp;</div>
+          </section>
+        </div>
+        <?php endif; ?>
+        <?php if ($triptych_last ): ?>
+        <div class="<?php print $triptych_last_classes; ?>" id="triptych-last"> <?php print $triptych_last; ?> </div>
+        <?php endif; ?>
       </div>
-    <?php endif; ?>
-
-    <?php if ($triptych_middle ): ?>
-      <div class="<?php print $triptych_middle_classes; ?>" id="triptych-middle">
-        <?php print $triptych_middle; ?>
-      </div>
-    <?php endif; ?>
-
-    <?php if ($triptych_last ): ?>
-      <div class="<?php print $triptych_last_classes; ?>" id="triptych-last">
-        <?php print $triptych_last; ?>
-      </div>
-    <?php endif; ?>
-  </div><!-- /#triptych -->
-
-</div><!-- /#container -->
-
-
-<footer>
-  <div class="row" id="name">
-    <?php print render($page['footer']); ?>
+    </div>
+    <!-- /#triptych --> 
+    
   </div>
-</footer>
-</div> <!-- /#content-wrapper -->
- <script>
+  <!-- /#container -->
+  
+  <footer>
+    <div class="row" id="name"> <?php print render($page['footer']); ?> </div>
+  </footer>
+</div>
+<!-- /#content-wrapper --> 
+<script>
   document.write('<script src=' +
   ('__proto__' in {} ? '/<?php print $directory; ?>/javascripts/vendor/zepto' : '/<?php print $directory; ?>/javascripts/vendor/jquery') +
   '.js><\/script>')
-</script>
-
+</script> 

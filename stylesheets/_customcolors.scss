@@ -1,0 +1,604 @@
+#content {
+	background: #f0f;
+}
+
+/**************************************
+*   TAXONOMY TERM  BUTTON COLORING    *
+***************************************/
+.page-taxonomy-term-13 h2, .page-taxonomy-term-13 .page-title-background /* Rows */ {
+ 	color: #000;
+ 	fill: $accentColor13;
+}
+.page-taxonomy-term-13 a /* Rows */ {
+ 	color: $linkColor13;
+}
+.page-taxonomy-term-13 a:hover, .page-taxonomy-term-13 a:active  /* Rows */ {
+	background: none repeat scroll 0 0 $accentColor13;
+	color: #000;
+}
+.page-taxonomy-term-13 .button, .page-taxonomy-term-13 li.button  /* Rows */ {
+	background: $linkColor13;
+	color: #fff;
+}
+.page-taxonomy-term-13 .button, .page-taxonomy-term-13 li.button a /* Rows */ {
+	color: #fff;
+}
+.page-taxonomy-term-13 li.button:hover, .page-taxonomy-term-13 li.button a:hover /* Rows */ {
+	background: none repeat scroll 0 0 $accentColor13;
+	color: #fff;
+}
+.page-taxonomy-term-14 h2, .page-taxonomy-term-14 .page-title-background /* Circles */ {
+ 	color: #000;
+ 	fill: $accentColor14;
+}
+.page-taxonomy-term-14 a /* Circles */ {
+ 	color: $linkColor14;
+}
+.page-taxonomy-term-14 a:hover, .page-taxonomy-term-14 a:active  /* Circles */ {
+	background: none repeat scroll 0 0 $accentColor14;
+	color: #000;
+}
+.page-taxonomy-term-14 .button, .page-taxonomy-term-14 li.button  /* Circles */ {
+	background: $linkColor14;
+	color: #fff;
+}
+.page-taxonomy-term-14 .button, .page-taxonomy-term-14 li.button a /* Circles */ {
+	color: #fff;
+}
+.page-taxonomy-term-14 li.button:hover, .page-taxonomy-term-14 li.button a:hover /* Circles */ {
+	background: none repeat scroll 0 0 $accentColor14;
+	color: #fff;
+}
+.page-taxonomy-term-15 h2, .page-taxonomy-term-15 .page-title-background /* Paths */ {
+ 	color: #000;
+ 	fill: $accentColor15;
+}
+.page-taxonomy-term-15 a /* Paths */ {
+ 	color: $linkColor15;
+}
+.page-taxonomy-term-15 a:hover, .page-taxonomy-term-15 a:active  /* Paths */ {
+	background: none repeat scroll 0 0 $accentColor15;
+	color: #000;
+}
+.page-taxonomy-term-15 .button, .page-taxonomy-term-15 li.button  /* Paths */ {
+	background: $linkColor15;
+	color: #fff;
+}
+.page-taxonomy-term-15 .button, .page-taxonomy-term-15 li.button a /* Paths */ {
+	color: #fff;
+}
+.page-taxonomy-term-15 li.button:hover, .page-taxonomy-term-15 li.button a:hover /* Paths */ {
+	background: none repeat scroll 0 0 $accentColor15;
+	color: #fff;
+}
+.page-taxonomy-term-16 h2, .page-taxonomy-term-16 .page-title-background /* I'm New */ {
+ 	color: #000;
+ 	fill: $accentColor16;
+}
+.page-taxonomy-term-16 a /* I'm New */ {
+ 	color: $linkColor16;
+}
+.page-taxonomy-term-16 a:hover, .page-taxonomy-term-16 a:active  /* I'm New */ {
+	background: none repeat scroll 0 0 $accentColor16;
+	color: #000;
+}
+.page-taxonomy-term-16 .button, .page-taxonomy-term-16 li.button  /* I'm New */ {
+	background: $linkColor16;
+	color: #fff;
+}
+.page-taxonomy-term-16 .button, .page-taxonomy-term-16 li.button a /* I'm New */ {
+	color: #fff;
+}
+.page-taxonomy-term-16 li.button:hover, .page-taxonomy-term-16 li.button a:hover /* I'm New */ {
+	background: none repeat scroll 0 0 $accentColor16;
+	color: #fff;
+}
+.page-taxonomy-term-17 h2, .page-taxonomy-term-17 .page-title-background /* Life Groups */ {
+ 	color: #000;
+ 	fill: $accentColor17;
+}
+.page-taxonomy-term-17 a /* Life Groups */ {
+ 	color: $linkColor17;
+}
+.page-taxonomy-term-17 a:hover, .page-taxonomy-term-17 a:active  /* Life Groups */ {
+	background: none repeat scroll 0 0 $accentColor17;
+	color: #000;
+}
+.page-taxonomy-term-17 .button, .page-taxonomy-term-17 li.button  /* Life Groups */ {
+	background: $linkColor17;
+	color: #fff;
+}
+.page-taxonomy-term-17 .button, .page-taxonomy-term-17 li.button a /* Life Groups */ {
+	color: #fff;
+}
+.page-taxonomy-term-17 li.button:hover, .page-taxonomy-term-17 li.button a:hover /* Life Groups */ {
+	background: none repeat scroll 0 0 $accentColor17;
+	color: #fff;
+}
+.page-taxonomy-term-18 h2, .page-taxonomy-term-18 .page-title-background /* Men */ {
+ 	color: #000;
+ 	fill: $accentColor18;
+}
+.page-taxonomy-term-18 a /* Men */ {
+ 	color: $linkColor18;
+}
+.page-taxonomy-term-18 a:hover, .page-taxonomy-term-18 a:active  /* Men */ {
+	background: none repeat scroll 0 0 $accentColor18;
+	color: #000;
+}
+.page-taxonomy-term-18 .button, .page-taxonomy-term-18 li.button  /* Men */ {
+	background: $linkColor18;
+	color: #fff;
+}
+.page-taxonomy-term-18 .button, .page-taxonomy-term-18 li.button a /* Men */ {
+	color: #fff;
+}
+.page-taxonomy-term-18 li.button:hover, .page-taxonomy-term-18 li.button a:hover /* Men */ {
+	background: none repeat scroll 0 0 $accentColor18;
+	color: #fff;
+}
+.page-taxonomy-term-19 h2, .page-taxonomy-term-19 .page-title-background /* Women */ {
+ 	color: #000;
+ 	fill: $accentColor19;
+}
+.page-taxonomy-term-19 a /* Women */ {
+ 	color: $linkColor19;
+}
+.page-taxonomy-term-19 a:hover, .page-taxonomy-term-19 a:active  /* Women */ {
+	background: none repeat scroll 0 0 $accentColor19;
+	color: #000;
+}
+.page-taxonomy-term-19 .button, .page-taxonomy-term-19 li.button  /* Women */ {
+	background: $linkColor19;
+	color: #fff;
+}
+.page-taxonomy-term-19 .button, .page-taxonomy-term-19 li.button a /* Women */ {
+	color: #fff;
+}
+.page-taxonomy-term-19 li.button:hover, .page-taxonomy-term-19 li.button a:hover /* Women */ {
+	background: none repeat scroll 0 0 $accentColor19;
+	color: #fff;
+}
+.page-taxonomy-term-20 h2, .page-taxonomy-term-20 .page-title-background /* Young Adults */ {
+ 	color: #000;
+ 	fill: $accentColor20;
+}
+.page-taxonomy-term-20 a /* Young Adults */ {
+ 	color: $linkColor20;
+}
+.page-taxonomy-term-20 a:hover, .page-taxonomy-term-20 a:active  /* Young Adults */ {
+	background: none repeat scroll 0 0 $accentColor20;
+	color: #000;
+}
+.page-taxonomy-term-20 .button, .page-taxonomy-term-20 li.button  /* Young Adults */ {
+	background: $linkColor20;
+	color: #fff;
+}
+.page-taxonomy-term-20 .button, .page-taxonomy-term-20 li.button a /* Young Adults */ {
+	color: #fff;
+}
+.page-taxonomy-term-20 li.button:hover, .page-taxonomy-term-20 li.button a:hover /* Young Adults */ {
+	background: none repeat scroll 0 0 $accentColor20;
+	color: #fff;
+}
+.page-taxonomy-term-21 h2, .page-taxonomy-term-21 .page-title-background /* Senior Ministries */ {
+ 	color: #000;
+ 	fill: $accentColor21;
+}
+.page-taxonomy-term-21 a /* Senior Ministries */ {
+ 	color: $linkColor21;
+}
+.page-taxonomy-term-21 a:hover, .page-taxonomy-term-21 a:active  /* Senior Ministries */ {
+	background: none repeat scroll 0 0 $accentColor21;
+	color: #000;
+}
+.page-taxonomy-term-21 .button, .page-taxonomy-term-21 li.button  /* Senior Ministries */ {
+	background: $linkColor21;
+	color: #fff;
+}
+.page-taxonomy-term-21 .button, .page-taxonomy-term-21 li.button a /* Senior Ministries */ {
+	color: #fff;
+}
+.page-taxonomy-term-21 li.button:hover, .page-taxonomy-term-21 li.button a:hover /* Senior Ministries */ {
+	background: none repeat scroll 0 0 $accentColor21;
+	color: #fff;
+}
+.page-taxonomy-term-22 h2, .page-taxonomy-term-22 .page-title-background /* Healing & Wholeness */ {
+ 	color: #000;
+ 	fill: $accentColor22;
+}
+.page-taxonomy-term-22 a /* Healing & Wholeness */ {
+ 	color: $linkColor22;
+}
+.page-taxonomy-term-22 a:hover, .page-taxonomy-term-22 a:active  /* Healing & Wholeness */ {
+	background: none repeat scroll 0 0 $accentColor22;
+	color: #000;
+}
+.page-taxonomy-term-22 .button, .page-taxonomy-term-22 li.button  /* Healing & Wholeness */ {
+	background: $linkColor22;
+	color: #fff;
+}
+.page-taxonomy-term-22 .button, .page-taxonomy-term-22 li.button a /* Healing & Wholeness */ {
+	color: #fff;
+}
+.page-taxonomy-term-22 li.button:hover, .page-taxonomy-term-22 li.button a:hover /* Healing & Wholeness */ {
+	background: none repeat scroll 0 0 $accentColor22;
+	color: #fff;
+}
+.page-taxonomy-term-23 h2, .page-taxonomy-term-23 .page-title-background /* All Children */ {
+ 	color: #000;
+ 	fill: $accentColor23;
+}
+.page-taxonomy-term-23 a /* All Children */ {
+ 	color: $linkColor23;
+}
+.page-taxonomy-term-23 a:hover, .page-taxonomy-term-23 a:active  /* All Children */ {
+	background: none repeat scroll 0 0 $accentColor23;
+	color: #000;
+}
+.page-taxonomy-term-23 .button, .page-taxonomy-term-23 li.button  /* All Children */ {
+	background: $linkColor23;
+	color: #fff;
+}
+.page-taxonomy-term-23 .button, .page-taxonomy-term-23 li.button a /* All Children */ {
+	color: #fff;
+}
+.page-taxonomy-term-23 li.button:hover, .page-taxonomy-term-23 li.button a:hover /* All Children */ {
+	background: none repeat scroll 0 0 $accentColor23;
+	color: #fff;
+}
+.page-taxonomy-term-24 h2, .page-taxonomy-term-24 .page-title-background /* Nursery */ {
+ 	color: #000;
+ 	fill: $accentColor24;
+}
+.page-taxonomy-term-24 a /* Nursery */ {
+ 	color: $linkColor24;
+}
+.page-taxonomy-term-24 a:hover, .page-taxonomy-term-24 a:active  /* Nursery */ {
+	background: none repeat scroll 0 0 $accentColor24;
+	color: #000;
+}
+.page-taxonomy-term-24 .button, .page-taxonomy-term-24 li.button  /* Nursery */ {
+	background: $linkColor24;
+	color: #fff;
+}
+.page-taxonomy-term-24 .button, .page-taxonomy-term-24 li.button a /* Nursery */ {
+	color: #fff;
+}
+.page-taxonomy-term-24 li.button:hover, .page-taxonomy-term-24 li.button a:hover /* Nursery */ {
+	background: none repeat scroll 0 0 $accentColor24;
+	color: #fff;
+}
+.page-taxonomy-term-25 h2, .page-taxonomy-term-25 .page-title-background /* Early Childhood */ {
+ 	color: #000;
+ 	fill: $accentColor25;
+}
+.page-taxonomy-term-25 a /* Early Childhood */ {
+ 	color: $linkColor25;
+}
+.page-taxonomy-term-25 a:hover, .page-taxonomy-term-25 a:active  /* Early Childhood */ {
+	background: none repeat scroll 0 0 $accentColor25;
+	color: #000;
+}
+.page-taxonomy-term-25 .button, .page-taxonomy-term-25 li.button  /* Early Childhood */ {
+	background: $linkColor25;
+	color: #fff;
+}
+.page-taxonomy-term-25 .button, .page-taxonomy-term-25 li.button a /* Early Childhood */ {
+	color: #fff;
+}
+.page-taxonomy-term-25 li.button:hover, .page-taxonomy-term-25 li.button a:hover /* Early Childhood */ {
+	background: none repeat scroll 0 0 $accentColor25;
+	color: #fff;
+}
+.page-taxonomy-term-26 h2, .page-taxonomy-term-26 .page-title-background /* 1st and 2nd Grade */ {
+ 	color: #000;
+ 	fill: $accentColor26;
+}
+.page-taxonomy-term-26 a /* 1st and 2nd Grade */ {
+ 	color: $linkColor26;
+}
+.page-taxonomy-term-26 a:hover, .page-taxonomy-term-26 a:active  /* 1st and 2nd Grade */ {
+	background: none repeat scroll 0 0 $accentColor26;
+	color: #000;
+}
+.page-taxonomy-term-26 .button, .page-taxonomy-term-26 li.button  /* 1st and 2nd Grade */ {
+	background: $linkColor26;
+	color: #fff;
+}
+.page-taxonomy-term-26 .button, .page-taxonomy-term-26 li.button a /* 1st and 2nd Grade */ {
+	color: #fff;
+}
+.page-taxonomy-term-26 li.button:hover, .page-taxonomy-term-26 li.button a:hover /* 1st and 2nd Grade */ {
+	background: none repeat scroll 0 0 $accentColor26;
+	color: #fff;
+}
+.page-taxonomy-term-27 h2, .page-taxonomy-term-27 .page-title-background /* 3rd - 5th Grade */ {
+ 	color: #000;
+ 	fill: $accentColor27;
+}
+.page-taxonomy-term-27 a /* 3rd - 5th Grade */ {
+ 	color: $linkColor27;
+}
+.page-taxonomy-term-27 a:hover, .page-taxonomy-term-27 a:active  /* 3rd - 5th Grade */ {
+	background: none repeat scroll 0 0 $accentColor27;
+	color: #000;
+}
+.page-taxonomy-term-27 .button, .page-taxonomy-term-27 li.button  /* 3rd - 5th Grade */ {
+	background: $linkColor27;
+	color: #fff;
+}
+.page-taxonomy-term-27 .button, .page-taxonomy-term-27 li.button a /* 3rd - 5th Grade */ {
+	color: #fff;
+}
+.page-taxonomy-term-27 li.button:hover, .page-taxonomy-term-27 li.button a:hover /* 3rd - 5th Grade */ {
+	background: none repeat scroll 0 0 $accentColor27;
+	color: #fff;
+}
+.page-taxonomy-term-28 h2, .page-taxonomy-term-28 .page-title-background /* All Youth */ {
+ 	color: #000;
+ 	fill: $accentColor28;
+}
+.page-taxonomy-term-28 a /* All Youth */ {
+ 	color: $linkColor28;
+}
+.page-taxonomy-term-28 a:hover, .page-taxonomy-term-28 a:active  /* All Youth */ {
+	background: none repeat scroll 0 0 $accentColor28;
+	color: #000;
+}
+.page-taxonomy-term-28 .button, .page-taxonomy-term-28 li.button  /* All Youth */ {
+	background: $linkColor28;
+	color: #fff;
+}
+.page-taxonomy-term-28 .button, .page-taxonomy-term-28 li.button a /* All Youth */ {
+	color: #fff;
+}
+.page-taxonomy-term-28 li.button:hover, .page-taxonomy-term-28 li.button a:hover /* All Youth */ {
+	background: none repeat scroll 0 0 $accentColor28;
+	color: #fff;
+}
+.page-taxonomy-term-29 h2, .page-taxonomy-term-29 .page-title-background /* 6th Grade */ {
+ 	color: #000;
+ 	fill: $accentColor29;
+}
+.page-taxonomy-term-29 a /* 6th Grade */ {
+ 	color: $linkColor29;
+}
+.page-taxonomy-term-29 a:hover, .page-taxonomy-term-29 a:active  /* 6th Grade */ {
+	background: none repeat scroll 0 0 $accentColor29;
+	color: #000;
+}
+.page-taxonomy-term-29 .button, .page-taxonomy-term-29 li.button  /* 6th Grade */ {
+	background: $linkColor29;
+	color: #fff;
+}
+.page-taxonomy-term-29 .button, .page-taxonomy-term-29 li.button a /* 6th Grade */ {
+	color: #fff;
+}
+.page-taxonomy-term-29 li.button:hover, .page-taxonomy-term-29 li.button a:hover /* 6th Grade */ {
+	background: none repeat scroll 0 0 $accentColor29;
+	color: #fff;
+}
+.page-taxonomy-term-30 h2, .page-taxonomy-term-30 .page-title-background /* Jr. High */ {
+ 	color: #000;
+ 	fill: $accentColor30;
+}
+.page-taxonomy-term-30 a /* Jr. High */ {
+ 	color: $linkColor30;
+}
+.page-taxonomy-term-30 a:hover, .page-taxonomy-term-30 a:active  /* Jr. High */ {
+	background: none repeat scroll 0 0 $accentColor30;
+	color: #000;
+}
+.page-taxonomy-term-30 .button, .page-taxonomy-term-30 li.button  /* Jr. High */ {
+	background: $linkColor30;
+	color: #fff;
+}
+.page-taxonomy-term-30 .button, .page-taxonomy-term-30 li.button a /* Jr. High */ {
+	color: #fff;
+}
+.page-taxonomy-term-30 li.button:hover, .page-taxonomy-term-30 li.button a:hover /* Jr. High */ {
+	background: none repeat scroll 0 0 $accentColor30;
+	color: #fff;
+}
+.page-taxonomy-term-31 h2, .page-taxonomy-term-31 .page-title-background /* High School */ {
+ 	color: #000;
+ 	fill: $accentColor31;
+}
+.page-taxonomy-term-31 a /* High School */ {
+ 	color: $linkColor31;
+}
+.page-taxonomy-term-31 a:hover, .page-taxonomy-term-31 a:active  /* High School */ {
+	background: none repeat scroll 0 0 $accentColor31;
+	color: #000;
+}
+.page-taxonomy-term-31 .button, .page-taxonomy-term-31 li.button  /* High School */ {
+	background: $linkColor31;
+	color: #fff;
+}
+.page-taxonomy-term-31 .button, .page-taxonomy-term-31 li.button a /* High School */ {
+	color: #fff;
+}
+.page-taxonomy-term-31 li.button:hover, .page-taxonomy-term-31 li.button a:hover /* High School */ {
+	background: none repeat scroll 0 0 $accentColor31;
+	color: #fff;
+}
+.page-taxonomy-term-32 h2, .page-taxonomy-term-32 .page-title-background /* Camp */ {
+ 	color: #000;
+ 	fill: $accentColor32;
+}
+.page-taxonomy-term-32 a /* Camp */ {
+ 	color: $linkColor32;
+}
+.page-taxonomy-term-32 a:hover, .page-taxonomy-term-32 a:active  /* Camp */ {
+	background: none repeat scroll 0 0 $accentColor32;
+	color: #000;
+}
+.page-taxonomy-term-32 .button, .page-taxonomy-term-32 li.button  /* Camp */ {
+	background: $linkColor32;
+	color: #fff;
+}
+.page-taxonomy-term-32 .button, .page-taxonomy-term-32 li.button a /* Camp */ {
+	color: #fff;
+}
+.page-taxonomy-term-32 li.button:hover, .page-taxonomy-term-32 li.button a:hover /* Camp */ {
+	background: none repeat scroll 0 0 $accentColor32;
+	color: #fff;
+}
+.page-taxonomy-term-33 h2, .page-taxonomy-term-33 .page-title-background /* Holidays */ {
+ 	color: #000;
+ 	fill: $accentColor33;
+}
+.page-taxonomy-term-33 a /* Holidays */ {
+ 	color: $linkColor33;
+}
+.page-taxonomy-term-33 a:hover, .page-taxonomy-term-33 a:active  /* Holidays */ {
+	background: none repeat scroll 0 0 $accentColor33;
+	color: #000;
+}
+.page-taxonomy-term-33 .button, .page-taxonomy-term-33 li.button  /* Holidays */ {
+	background: $linkColor33;
+	color: #fff;
+}
+.page-taxonomy-term-33 .button, .page-taxonomy-term-33 li.button a /* Holidays */ {
+	color: #fff;
+}
+.page-taxonomy-term-33 li.button:hover, .page-taxonomy-term-33 li.button a:hover /* Holidays */ {
+	background: none repeat scroll 0 0 $accentColor33;
+	color: #fff;
+}
+.page-taxonomy-term-34 h2, .page-taxonomy-term-34 .page-title-background /* International Ministries */ {
+ 	color: #000;
+ 	fill: $accentColor34;
+}
+.page-taxonomy-term-34 a /* International Ministries */ {
+ 	color: $linkColor34;
+}
+.page-taxonomy-term-34 a:hover, .page-taxonomy-term-34 a:active  /* International Ministries */ {
+	background: none repeat scroll 0 0 $accentColor34;
+	color: #000;
+}
+.page-taxonomy-term-34 .button, .page-taxonomy-term-34 li.button  /* International Ministries */ {
+	background: $linkColor34;
+	color: #fff;
+}
+.page-taxonomy-term-34 .button, .page-taxonomy-term-34 li.button a /* International Ministries */ {
+	color: #fff;
+}
+.page-taxonomy-term-34 li.button:hover, .page-taxonomy-term-34 li.button a:hover /* International Ministries */ {
+	background: none repeat scroll 0 0 $accentColor34;
+	color: #fff;
+}
+.page-taxonomy-term-35 h2, .page-taxonomy-term-35 .page-title-background /* Local Outreach */ {
+ 	color: #000;
+ 	fill: $accentColor35;
+}
+.page-taxonomy-term-35 a /* Local Outreach */ {
+ 	color: $linkColor35;
+}
+.page-taxonomy-term-35 a:hover, .page-taxonomy-term-35 a:active  /* Local Outreach */ {
+	background: none repeat scroll 0 0 $accentColor35;
+	color: #000;
+}
+.page-taxonomy-term-35 .button, .page-taxonomy-term-35 li.button  /* Local Outreach */ {
+	background: $linkColor35;
+	color: #fff;
+}
+.page-taxonomy-term-35 .button, .page-taxonomy-term-35 li.button a /* Local Outreach */ {
+	color: #fff;
+}
+.page-taxonomy-term-35 li.button:hover, .page-taxonomy-term-35 li.button a:hover /* Local Outreach */ {
+	background: none repeat scroll 0 0 $accentColor35;
+	color: #fff;
+}
+.page-taxonomy-term-36 h2, .page-taxonomy-term-36 .page-title-background /* Global Outreach */ {
+ 	color: #000;
+ 	fill: $accentColor36;
+}
+.page-taxonomy-term-36 a /* Global Outreach */ {
+ 	color: $linkColor36;
+}
+.page-taxonomy-term-36 a:hover, .page-taxonomy-term-36 a:active  /* Global Outreach */ {
+	background: none repeat scroll 0 0 $accentColor36;
+	color: #000;
+}
+.page-taxonomy-term-36 .button, .page-taxonomy-term-36 li.button  /* Global Outreach */ {
+	background: $linkColor36;
+	color: #fff;
+}
+.page-taxonomy-term-36 .button, .page-taxonomy-term-36 li.button a /* Global Outreach */ {
+	color: #fff;
+}
+.page-taxonomy-term-36 li.button:hover, .page-taxonomy-term-36 li.button a:hover /* Global Outreach */ {
+	background: none repeat scroll 0 0 $accentColor36;
+	color: #fff;
+}
+.page-taxonomy-term-37 h2, .page-taxonomy-term-37 .page-title-background /* New to B4 */ {
+ 	color: #000;
+ 	fill: $accentColor37;
+}
+.page-taxonomy-term-37 a /* New to B4 */ {
+ 	color: $linkColor37;
+}
+.page-taxonomy-term-37 a:hover, .page-taxonomy-term-37 a:active  /* New to B4 */ {
+	background: none repeat scroll 0 0 $accentColor37;
+	color: #000;
+}
+.page-taxonomy-term-37 .button, .page-taxonomy-term-37 li.button  /* New to B4 */ {
+	background: $linkColor37;
+	color: #fff;
+}
+.page-taxonomy-term-37 .button, .page-taxonomy-term-37 li.button a /* New to B4 */ {
+	color: #fff;
+}
+.page-taxonomy-term-37 li.button:hover, .page-taxonomy-term-37 li.button a:hover /* New to B4 */ {
+	background: none repeat scroll 0 0 $accentColor37;
+	color: #fff;
+}
+.page-taxonomy-term-38 h2, .page-taxonomy-term-38 .page-title-background /* New to Christianity */ {
+ 	color: #000;
+ 	fill: $accentColor38;
+}
+.page-taxonomy-term-38 a /* New to Christianity */ {
+ 	color: $linkColor38;
+}
+.page-taxonomy-term-38 a:hover, .page-taxonomy-term-38 a:active  /* New to Christianity */ {
+	background: none repeat scroll 0 0 $accentColor38;
+	color: #000;
+}
+.page-taxonomy-term-38 .button, .page-taxonomy-term-38 li.button  /* New to Christianity */ {
+	background: $linkColor38;
+	color: #fff;
+}
+.page-taxonomy-term-38 .button, .page-taxonomy-term-38 li.button a /* New to Christianity */ {
+	color: #fff;
+}
+.page-taxonomy-term-38 li.button:hover, .page-taxonomy-term-38 li.button a:hover /* New to Christianity */ {
+	background: none repeat scroll 0 0 $accentColor38;
+	color: #fff;
+}
+.page-taxonomy-term-39 h2, .page-taxonomy-term-39 .page-title-background /* Non of the Above */ {
+ 	color: #000;
+ 	fill: $accentColor39;
+}
+.page-taxonomy-term-39 a /* Non of the Above */ {
+ 	color: $linkColor39;
+}
+.page-taxonomy-term-39 a:hover, .page-taxonomy-term-39 a:active  /* Non of the Above */ {
+	background: none repeat scroll 0 0 $accentColor39;
+	color: #000;
+}
+.page-taxonomy-term-39 .button, .page-taxonomy-term-39 li.button  /* Non of the Above */ {
+	background: $linkColor39;
+	color: #fff;
+}
+.page-taxonomy-term-39 .button, .page-taxonomy-term-39 li.button a /* Non of the Above */ {
+	color: #fff;
+}
+.page-taxonomy-term-39 li.button:hover, .page-taxonomy-term-39 li.button a:hover /* Non of the Above */ {
+	background: none repeat scroll 0 0 $accentColor39;
+	color: #fff;
+}
+h1#page-title {
+color: #fff;
+}

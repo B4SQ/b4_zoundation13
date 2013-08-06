@@ -1,6 +1,6 @@
-/***************
-*    MIXINS    *
-****************/
+/****************
+*     MIXINS    *
+*****************/
 /*****************
 *   VARIABLES    *
 ******************/
@@ -35,6 +35,9 @@
 /****************
 *    IMPORTS    *
 *****************/
+#content {
+  background: #f0f; }
+
 /**************************************
 *   TAXONOMY TERM  BUTTON COLORING    *
 ***************************************/
@@ -684,7 +687,7 @@ div.radius img {
   border: 1px solid #000;
   margin: 0 3px; }
 
-#main {
+#content {
   margin-bottom: 1em; }
 
 #sticky-links {
@@ -884,7 +887,7 @@ h2.docs-id {
   display: none;
   visibility: hidden; }
 
-div#content-wrapper.row div.row div#main.large-12 div.panel-flexible.canvas-panel-wrapper {
+div#content-wrapper.row div.row div#content.large-12 div.panel-flexible.canvas-panel-wrapper {
   position: relative;
   top: -390px; }
 

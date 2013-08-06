@@ -1,0 +1,36 @@
+/*********************
+*   Small display    *
+**********************/
+@media only screen and (max-width: 767px) {
+
+body {
+	margin: 0;
+	background: #FFF;
+}
+img.field-orbit-image {
+	@include orbitRadiusMobile;
+}
+#sticky-links {
+	height: 45px;
+}
+#content-wrapper {
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	position: relative;
+}
+#small-four-things h2.block-title {
+	display: none; 
+	visibility: hidden;
+}
+#small-four-things ul li.button,  button#edit-submit.postfix  {
+	background: #535353;
+	margin-bottom: 3px;
+}
+#small-four-things ul li.button a {
+	color: #FFF;
+	}
+#small-four-things ul li.button:hover, #small-four-things ul li.button:focus, button#edit-submit.postfix {
+	background: #000;
+} 
+}

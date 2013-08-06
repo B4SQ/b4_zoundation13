@@ -1,0 +1,58 @@
+/****************
+*     MIXINS    *
+*****************/
+@mixin 
+orbitRadius {
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px; /* future proofing */
+	-khtml-border-radius: 10px; /* for old Konqueror browsers */
+}
+@mixin 
+orbitRadiusMobile {
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px; /* future proofing */
+	-khtml-border-radius: 0px; /* for old Konqueror browsers */
+}
+/*****************
+*   VARIABLES    *
+******************/
+/* From B4 Commmunications */
+/* Rows */ $accentColor13: #fcb822; $linkColor13: #777;
+/* Circles */ $accentColor14: #22b24c; $linkColor14: #777;
+/* Paths */ $accentColor15: #a62e2c; $linkColor15: #777;
+/* I'm New */ $accentColor16: #287588; $linkColor16: #777;
+
+/* LifeGroups */ $accentColor17: #24a292; $linkColor17: #777;
+/* Men */ $accentColor18: #1f83b6; $linkColor18: #777;
+/* Women */ $accentColor19: #ed126f; $linkColor19: #777;
+/* Young Adults */ $accentColor20: #6ec9bd; $linkColor20: #777;
+/* Senior Ministries */$accentColor21: #f17a20; $linkColor21: #777;
+/* Healing & Wholeness */ $accentColor22: #714099; $linkColor22: #777;
+/* All Children */ $accentColor23: #f15a44; $linkColor23: #777;
+/* Nursery */ $accentColor24: #f15a44; $linkColor24: #777;
+/* Early Childhood */ $accentColor25: #f15a44; $linkColor25: #777;
+/* 1st&2nd */ $accentColor26: #f15a44; $linkColor26: #777;
+/* 3rd-5th */ $accentColor27: #f15a44; $linkColor27: #777;
+/* All Youth */ $accentColor28: #66bf75; $linkColor28: #777;
+/* 6th Grade */ $accentColor29: #66bf75; $linkColor29: #777;
+/* Jr. High */ $accentColor30: #66bf75; $linkColor30: #777;
+/* High School */ $accentColor31: #66bf75; $linkColor31: #777;
+/* Camp */ $accentColor32: #040707; $linkColor32: #777; $overrideColor32: #c32627;
+/* Holidays */ $accentColor33: #fff200; $linkColor33: #777; $overrideColor33: #16ac9c;
+/* International Ministries */ $accentColor34: #a62e2c; $linkColor34: #777;
+/* Local Outreach */ $accentColor35: #a62e2c; $linkColor35: #777;
+/* Global Outreach */ $accentColor36: #a62e2c; $linkColor36: #777;
+/* New to B4 */ $accentColor37: #287588; $linkColor37: #777;
+/* New to Christianity */ $accentColor38: #287588; $linkColor38: #777;
+/* Unassigned */ $accentColor39: #FF00FF; $linkColor39: #777;
+
+/****************
+*    IMPORTS    *
+*****************/
+@import "customcolors";
+@import "customstructure";
+@import "small"; /* e.g. mobile phone */
+@import "medium"; /* e.g. iPad landscape */
+@import "verylarge"; /* desktop */

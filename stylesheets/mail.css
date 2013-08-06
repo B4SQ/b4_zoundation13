@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* Drupal B4 Webforms HTML Email Formatting - @scoberlis */
+
+* {
+    font-family:"Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif; !important;
+}
+
+.myTable { 
+	width:100%;
+	font-size:12px;
+	line-height:135%;
+	border-bottom: 1px solid #eee;
+}
+ 
+.myTable tr:nth-child(even) { /*(even) or (2n 0)*/
+	background: #FFFFFF;
+}
+
+.myTable tr:nth-child(odd) { /*(odd) or (2n 1)*/
+	background: #F5F5F5;
+}
+.myTable tr > th:first-child { /*(even) or (2n 0)*/
+	vertical-align:top;color:#222;text-align:left;padding:7px 9px 7px 9px;border-top:1px solid #eee;
+}
+
+.myTable tr > td {
+	vertical-align:top;color:#333;width:60%;padding:7px 9px 7px 0;border-top:1px solid #eee;
+	
+}

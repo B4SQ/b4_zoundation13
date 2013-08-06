@@ -1,0 +1,347 @@
+
+/***************************
+*   ALL SCREEN DISPLAYS    *
+****************************/
+
+
+body { /*	color: #f00; */
+	background-color: #FFF;
+}
+
+h1, h2, h3, h4, h5, h6, .proper-name {
+	text-transform: capitalize;
+}
+h1 {
+  font-size: 2.125em;
+}
+
+h2 {
+  font-size: 1.6875em;
+}
+
+h3 {
+  font-size: 1.375em;
+}
+
+h4 {
+  font-size: 1.125em;
+}
+
+h5 {
+  font-size: 1.125em;
+}
+
+h6 {
+  font-size: 1em;
+}
+h2.pane-title, h2.atmosphere-id {
+	display: none;
+	visibility: hidden;
+}
+
+div.radius img {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
+}
+
+#content-wrapper {
+	-moz-box-shadow: 6px 0px 10px -7px #333, -6px 0px 10px -7px #333;
+	-webkit-box-shadow: 6px 0px 10px -7px #333, -6px 0px 10px -7px #333;
+	box-shadow: 6px 0px 10px -7px #333, -6px 0px 10px -7px #333;
+	position: relative;
+}
+
+.button {
+	border: 1px solid #000;
+	margin: 0 3px;
+}
+
+#content {
+	margin-bottom: 1em;
+}
+
+#sticky-links {
+	background-color: #000;
+	color: #FFF;
+	height: 35px;
+	overflow: hidden;
+}
+
+#sticky-links div.block div.view div.view-content ul.no-bullet li.views-row div.views-field div.field-content a img {
+	display: inline-block;
+	max-height: 30px;
+	padding-left: 8px;
+	vertical-align: middle;
+}
+
+#sticky-links div.block div.view div.view-content ul.no-bullet li.views-row-first {
+	padding: 0 0 0 10px;
+}
+
+#sticky-links div.block div.view div.view-content ul.no-bullet li.views-row {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+}
+
+#sticky-links div.block div.view div.view-content ul.no-bullet li.views-row-last {
+	padding: 0 10px 0 0;
+}
+
+#atmosphere {
+	float: left;
+	position: relative;
+	top: 0;
+	z-index: -10;
+}
+
+.page-taxonomy-term-13 div#atmosphere-logo {
+	background: url(../images/atmosphere-rows.png);
+}
+
+.page-taxonomy-term-14 div#atmosphere-logo {
+	background: url(../images/atmosphere-circles.png);
+}
+
+.page-taxonomy-term-15 div#atmosphere-logo {
+	background: url(../images/atmosphere-paths.png);
+}
+
+.page-taxonomy-term-16 div#atmosphere-logo {
+	background: url(../images/atmosphere-iamnew.png);
+}
+
+.page-taxonomy-term-17 div#atmosphere-logo {
+	background: url(../images/atmosphere-lifegroups.png);
+}
+
+.page-taxonomy-term-18 div#atmosphere-logo {
+	background: url(../images/atmosphere-men.png);
+}
+
+.page-taxonomy-term-19 div#atmosphere-logo {
+	background: url(../images/atmosphere-women.png);
+}
+
+.page-taxonomy-term-20 div#atmosphere-logo {
+	background: url(../images/atmosphere-youngadults.png);
+}
+
+.page-taxonomy-term-21 div#atmosphere-logo {
+	background: url(../images/atmosphere-senior.png);
+}
+
+.page-taxonomy-term-22 div#atmosphere-logo {
+	background: url(../images/atmosphere-healing.png);
+}
+
+.page-taxonomy-term-23 div#atmosphere-logo {
+	background: url(../images/atmosphere-allchildren.png);
+}
+
+.page-taxonomy-term-24 div#atmosphere-logo {
+	background: url(../images/atmosphere-nursery.png);
+}
+
+.page-taxonomy-term-25 div#atmosphere-logo {
+	background: url(../images/atmosphere-earlychildhood.png);
+}
+
+.page-taxonomy-term-26 div#atmosphere-logo {
+	background: url(../images/atmosphere-firstsecond.png);
+}
+
+.page-taxonomy-term-27 div#atmosphere-logo {
+	background: url(../images/atmosphere-thirdfifth.png);
+}
+
+.page-taxonomy-term-28 div#atmosphere-logo {
+	background: url(../images/atmosphere-allyouth.png);
+}
+
+.page-taxonomy-term-29 div#atmosphere-logo {
+	background: url(../images/atmosphere-sixth.png);
+}
+
+.page-taxonomy-term-30 div#atmosphere-logo {
+	background: url(../images/atmosphere-jrhigh.png);
+}
+
+.page-taxonomy-term-31 div#atmosphere-logo {
+	background: url(../images/atmosphere-highschool.png);
+}
+
+.page-taxonomy-term-32 div#atmosphere-logo {
+	background: url(../images/atmosphere-camp.png);
+}
+
+.page-taxonomy-term-33 div#atmosphere-logo {
+	background: url(../images/atmosphere-holidays.png);
+}
+
+.page-taxonomy-term-34 div#atmosphere-logo {
+	background: url(../images/atmosphere-international.png);
+}
+
+.page-taxonomy-term-35 div#atmosphere-logo {
+	background: url(../images/atmosphere-localoutreach.png);
+}
+
+.page-taxonomy-term-36 div#atmosphere-logo {
+	background: url(../images/atmosphere-globaloutreach.png);
+}
+
+.page-taxonomy-term-37 div#atmosphere-logo {
+	background: url(../images/atmosphere-newb4.png);
+}
+
+.page-taxonomy-term-38 div#atmosphere-logo {
+	background: url(../images/atmosphere-newchristian.png);
+}
+
+.page-taxonomy-term-39 div#atmosphere-logo {
+	background: url(../images/atmosphere-generic.png);
+}
+
+.page-calendar div#atmosphere-logo, body.node-type-event div#atmosphere-logo {
+	background: url(../images/atmosphere-event.png);
+}
+
+body.node-type-blog div#atmosphere-logo {
+	background: url(../images/atmosphere-blog.png);
+}
+
+body.node-type-bulletin-article div#atmosphere-logo {
+	background: url(../images/atmosphere-bulletin.png);
+}
+
+body.node-type-picture-n-paragraph div#atmosphere-logo {
+	background: url(../images/atmosphere-pnp.png);
+}
+
+body.node-type-photo-gallery div#atmosphere-logo {
+	background: url(../images/atmosphere-photogallery.png);
+}
+
+#branding.hide-for-small {
+	margin-top: 1em;
+}
+
+#page-deco {
+	margin-left: 0px;
+	position: relative;
+}
+
+#page-deco svg /* the entire tear and the circle and the page title */ {
+	display: inline-block;
+	padding-left: 0px;
+	position: relative;
+	top: -140px;
+	z-index: 0;
+}
+.page-title-background /* just the decorative circle */ {
+display: inline-block;
+max-height: 300px;
+max-width: 300px;
+}
+.foreign-object-page-title { /* just the page title */
+display: inline-block;
+max-height: 300px;
+max-width: 300px;
+}
+h1#page-title {
+font-size: 2.5em;
+text-align: center;
+margin-top: 40%;
+margin-bottom: 40%;
+z-index: 10;
+}
+
+h2.events-id {
+	background: url(../images/icons/icon_event.svg) no-repeat top left;
+	background-size: 1em;
+	padding-left: 1.25em;
+}
+
+h2.blogs-id {
+	background: url(../images/icons/icon_blog.svg) no-repeat top left;
+	background-size: 1em;
+	padding-left: 1.25em;
+}
+
+h2.bulletins-id {
+	background: url(../images/icons/icon_bulletin.svg) no-repeat top left;
+	background-size: 1em;
+	padding-left: 1.25em;
+}
+
+h2.pnp-id {
+	background: url(../images/icons/icon_photo.svg) no-repeat top left;
+	background-size: 1em;
+	padding-left: 1.25em;
+}
+
+h2.podcast-id {
+	background: url(../images/icons/icon_pod.svg) no-repeat top left;
+	background-size: 1em;
+	padding-left: 1.25em;
+}
+
+h2.links-id {
+	background: url(../images/icons/icon_links.svg) no-repeat top left;
+	background-size: 1em;
+	padding-left: 1.25em;
+}
+
+h2.docs-id {
+	background: url(../images/icons/icon_docs.svg) no-repeat top left;
+	background-size: 1em;
+	padding-left: 1.25em;
+}
+
+.hidden-title h2.node-title, .hidden-title .node-readmore {
+	display: none;
+	visibility: hidden;
+}
+
+div#content-wrapper.row div.row div#content.large-12 div.panel-flexible.canvas-panel-wrapper {
+	position: relative;
+	top: -390px;
+}
+
+img.field-orbit-image {
+ @include orbitRadius;
+}
+
+.views-field-field-category, .views-field-field-ministry-tags {
+	display: inline;
+	margin: -5px 0 20px 0;
+}
+
+.tax-tag-cat a, .tax-tag-min a {
+	display: inline;
+	margin: 0 5px 0 0;
+}
+
+footer.large-12 {
+	background-color: #000;
+	color: #FFF;
+	-moz-box-shadow: 6px 0px 10px -7px #333, -6px 0px 10px -7px #333;
+	-webkit-box-shadow: 6px 0px 10px -7px #333, -6px 0px 10px -7px #333;
+	box-shadow: 6px 0px 10px -7px #333, -6px 0px 10px -7px #333;
+}
+
+footer.large-12 h2 {
+	display: none;
+	visibility: hidden;
+}
+
+footer p {
+	font-size: .8em;
+	padding-top: 1em;
+	text-align: center;
+}
