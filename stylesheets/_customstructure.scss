@@ -46,7 +46,20 @@ div.radius img {
 	-o-border-radius: 10px;
 	border-radius: 10px;
 }
-
+#header {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+body.front #content {
+	margin-bottom: 1em;
+	position: relative;
+	top: 0px;
+}
+#content {
+	margin-bottom: 1em;
+	position: relative;
+	top: -420px;
+}
 #content-wrapper {
 	-moz-box-shadow: 6px 0px 10px -7px #333, -6px 0px 10px -7px #333;
 	-webkit-box-shadow: 6px 0px 10px -7px #333, -6px 0px 10px -7px #333;
@@ -57,10 +70,6 @@ div.radius img {
 .button {
 	border: 1px solid #000;
 	margin: 0 3px;
-}
-
-#content {
-	margin-bottom: 1em;
 }
 
 #sticky-links {
@@ -229,6 +238,11 @@ body.node-type-photo-gallery div#atmosphere-logo {
 
 #branding.hide-for-small {
 	margin-top: 1em;
+}
+
+body.front a.feed-icon {
+	display: none;
+	visibility: hidden;
 }
 
 #page-deco {

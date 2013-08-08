@@ -210,15 +210,45 @@
         <div class="<?php print $triptych_first_classes; ?>" id="triptych-first"> <?php print $triptych_first; ?> </div>
         <?php endif; ?>
         <?php if ($triptych_middle ): ?>
-        <div class="section-container accordion" data-section="accordion">
-          <section class="section">
-            <p class="title">Ministry Menu</p>
-            <div class="<?php print $triptych_middle_classes; ?>" id="triptych-middle"> <?php print $triptych_middle; ?> </div>
-          </section>
-          <section class="section active">
-            <p class="title">&nbsp;</p>
-            <div class="content">&nbsp;</div>
-          </section>
+        <div class="<?php print $triptych_middle_classes; ?> inverted" id="triptych-middle">
+          <div class="section-container accordion" data-section="accordion">
+            <section>
+              <p class="title" data-section-title><a href="#">Ministry Menu</a></p>
+              <div class="content" data-section-content>
+                <ul class="large-block-grid-4 small-block-grid-2">
+                  <li class=""> <a href="/ministries/lifegroups" class="exp-menu">LifeGroups</a> </li>
+                  <li class=""> <a href="/ministries/men" class="exp-menu">Men</a> </li>
+                  <li class=""> <a href="/ministries/women" class="exp-menu">Women</a> </li>
+                  <li class=""> <a href="/ministries/young-adults" class="exp-menu">Young Adults</a> </li>
+                  <li class=""> <a href="/ministries/senior-ministries" class="exp-menu">Senior Ministries</a> </li>
+                  <li class=""> <a href="/ministries/healing-wholeness" class="exp-menu">Healing &amp; Wholeness</a> </li>
+                  <li class=""> <a href="/ministries/all-children" class="exp-menu">All Children</a> </li>
+                  <li class=""> <a href="/ministries/nursery" class="exp-menu">Nursery</a> </li>
+                  <li class=""> <a href="/ministries/early-childhood" class="exp-menu">Early Childhood</a> </li>
+                  <li class=""> <a href="/ministries/1st-2nd-grade" class="exp-menu">1st-2nd Grade</a> </li>
+                  <li class=""> <a href="/ministries/3rd-5th-grade" class="exp-menu">3rd-5th Grade</a> </li>
+                  <li class=""> <a href="/ministries/all-youth" class="exp-menu">All Youth</a> </li>
+                  <li class=""> <a href="/ministries/6th-grade" class="exp-menu">6th Grade</a> </li>
+                  <li class=""> <a href="/ministries/jr-high" class="exp-menu">Jr. High</a> </li>
+                  <li class=""> <a href="/ministries/high-school" class="exp-menu">High School</a> </li>
+                  <li class=""> <a href="/ministries/camp" class="exp-menu">Camp</a> </li>
+                  <li class=""> <a href="/ministries/local-outreach" class="exp-menu">Local Outreach</a> </li>
+                  <li class=""> <a href="/ministries/global-outreach" class="exp-menu">Global Outreach</a> </li>
+                  <li class=""> <a href="/ministries/international-ministries" class="exp-menu">International Ministries</a> </li>
+                  <li class=""> <a href="/ministries/holidays" class="exp-menu">Holidays</a> </li>
+                  <li class=""> <a href="/ministries/new-beaverton-4" class="exp-menu">New To Beaverton 4</a> </li>
+                  <li class=""> <a href="/ministries/new-christianity" class="exp-menu">New To Christianity</a> </li>
+                </ul>
+                <?php // print $triptych_middle; ?>
+              </div>
+            </section>
+            <section>
+              <p class="title" data-section-title><a href="#">Close Menu</a></p>
+              <div class="content close" data-section-content>
+                <p>&nbsp;</p>
+              </div>
+            </section>
+          </div>
         </div>
         <?php endif; ?>
         <?php if ($triptych_last ): ?>

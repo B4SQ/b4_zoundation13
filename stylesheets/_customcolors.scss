@@ -1,7 +1,3 @@
-#content {
-	background: #f0f;
-}
-
 /**************************************
 *   TAXONOMY TERM  BUTTON COLORING    *
 ***************************************/
@@ -601,4 +597,14 @@
 }
 h1#page-title {
 color: #fff;
+}
+/*****************
+*    COLORING    *
+******************/
+div.inverted, div.section-container section.active div.content {
+background: #777;
+color: #FFF;
+}
+div.inverted a, div.inverted a:hover {
+	color: #FFF;
 }

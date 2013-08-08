@@ -35,9 +35,6 @@
 /****************
 *    IMPORTS    *
 *****************/
-#content {
-  background: #f0f; }
-
 /**************************************
 *   TAXONOMY TERM  BUTTON COLORING    *
 ***************************************/
@@ -638,6 +635,16 @@
 h1#page-title {
   color: #fff; }
 
+/*****************
+*    COLORING    *
+******************/
+div.inverted, div.section-container section.active div.content {
+  background: #777;
+  color: #FFF; }
+
+div.inverted a, div.inverted a:hover {
+  color: #FFF; }
+
 /***************************
 *   ALL SCREEN DISPLAYS    *
 ****************************/
@@ -677,6 +684,20 @@ div.radius img {
   -o-border-radius: 10px;
   border-radius: 10px; }
 
+#header {
+  margin-bottom: 0;
+  margin-top: 0; }
+
+body.front #content {
+  margin-bottom: 1em;
+  position: relative;
+  top: 0px; }
+
+#content {
+  margin-bottom: 1em;
+  position: relative;
+  top: -420px; }
+
 #content-wrapper {
   -moz-box-shadow: 6px 0px 10px -7px #333333, -6px 0px 10px -7px #333333;
   -webkit-box-shadow: 6px 0px 10px -7px #333333, -6px 0px 10px -7px #333333;
@@ -686,9 +707,6 @@ div.radius img {
 .button {
   border: 1px solid #000;
   margin: 0 3px; }
-
-#content {
-  margin-bottom: 1em; }
 
 #sticky-links {
   background-color: #000;
@@ -818,6 +836,10 @@ body.node-type-photo-gallery div#atmosphere-logo {
 
 #branding.hide-for-small {
   margin-top: 1em; }
+
+body.front a.feed-icon {
+  display: none;
+  visibility: hidden; }
 
 #page-deco {
   margin-left: 0px;
