@@ -677,7 +677,7 @@ h2.pane-title, h2.atmosphere-id {
   display: none;
   visibility: hidden; }
 
-div.radius img {
+div.radius img, div.orbit-container img, div.radius, div.orbit-container {
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
@@ -708,30 +708,36 @@ body.front #content {
   border: 1px solid #000;
   margin: 0 3px; }
 
+/*
 #sticky-links {
-  background-color: #000;
-  color: #FFF;
-  height: 35px;
-  overflow: hidden; }
+	background-color: #000;
+	color: #FFF;
+	height: 35px;
+	overflow: hidden;
+}
 
 #sticky-links div.block div.view div.view-content ul.no-bullet li.views-row div.views-field div.field-content a img {
-  display: inline-block;
-  max-height: 30px;
-  padding-left: 8px;
-  vertical-align: middle; }
+	display: inline-block;
+	max-height: 30px;
+	padding-left: 8px;
+	vertical-align: middle;
+}
 
 #sticky-links div.block div.view div.view-content ul.no-bullet li.views-row-first {
-  padding: 0 0 0 10px; }
+	padding: 0 0 0 10px;
+}
 
 #sticky-links div.block div.view div.view-content ul.no-bullet li.views-row {
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-  vertical-align: middle; }
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+}
 
 #sticky-links div.block div.view div.view-content ul.no-bullet li.views-row-last {
-  padding: 0 10px 0 0; }
-
+	padding: 0 10px 0 0;
+}
+*/
 #atmosphere {
   float: left;
   position: relative;

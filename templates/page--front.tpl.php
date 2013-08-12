@@ -130,7 +130,7 @@
     <?php endif; ?>
 
     <div class="large-12 columns">
-        <div id="sticky-links"><?php print render($page['header']); ?></div>
+        <!--div id="sticky-links"--><?php print render($page['header']); ?><!--/div-->
     </div>
 
   </header>
@@ -203,7 +203,7 @@
   <div id="content" class="row" role="main">
 
     <div class="<?php // print $main_classes; ?>">
-    <div class="large-10 large-offset-1 small-12 columns radius">  
+    <div class="large-10 large-offset-1 columns">  
         <?php print render($page['highlighted']); ?>
         <?php print $breadcrumb; ?>
         <a id="main-content"></a>

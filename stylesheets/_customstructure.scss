@@ -38,8 +38,7 @@ h2.pane-title, h2.atmosphere-id {
 	display: none;
 	visibility: hidden;
 }
-
-div.radius img {
+div.radius img, div.orbit-container img, div.radius, div.orbit-container {
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	-ms-border-radius: 10px;
@@ -71,7 +70,7 @@ body.front #content {
 	border: 1px solid #000;
 	margin: 0 3px;
 }
-
+/*
 #sticky-links {
 	background-color: #000;
 	color: #FFF;
@@ -100,7 +99,7 @@ body.front #content {
 #sticky-links div.block div.view div.view-content ul.no-bullet li.views-row-last {
 	padding: 0 10px 0 0;
 }
-
+*/
 #atmosphere {
 	float: left;
 	position: relative;
